@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container" id="desainCon">
+        <div class="navigasi" id="navbar">
+            <nav class="navbar ">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-4">
+                            <a class="navbar-brand" href="#">
+                                <img src="Bloggo-LOGO 1.png" alt="" width="35" height="35"
+                                    class="d-inline-block align-text-top">
+                                Blog Go
+                            </a>
+                        </div>
+                        <div class="col-8 ">
+                            <div class="row">
+                                <div class="col-7">
+
+                                </div>
+                                <div class="col-5">
+                                    <div class="navi ">
+                                        <button class="btn" onclick="bernplay()" ondblclick="stopAudio()" id="bernadYA">
+                                            <img id="sound" src="vinyl-record-4043560_1280-removebg-preview.png"
+                                                alt=""></button>
+                                        <a href="#" class="nav-item"> Design</a>
+                                        <a href="beranda.html" class="nav-item"> Storage</a>
+                                        <a href="about.html" class="nav-item"> About</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <audio id="bernad" src="Bernadya - Apa Mungkin (Official Music Video).mp3"
+                                preload="auto"></audio>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </nav>
+            <button class="btn btn-danger" style="height: fit-content;position:absolute;margin-top:10px;"
+                onclick="isiDesain()">refresh</button>
+
+            <div class="card" style="margin-top:60px;" id="content">
+                <div class="card" id="pop1">
+                    <div class="img1pop">
+                        <img src="desain1(landing).jfif" alt="">
+
+                    </div>
+                    <div class="desk1">
+                        <button class="btn btn-danger" id="cancelpop" onclick="cancelpop()"></button>
+                        <span id="titlePr">LANDING PAGE UI UX DESIGN BY DEWA</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quas nihil enim blanditiis
+                            molestias.
+                            Voluptas officia sit porro, suscipit nemo labore inventore harum, eligendi omnis laborum,
+                            modi deserunt pariatur! Similique?</p>
+                        <label id="price" for="">
+                            <h6>Rp<h6 id="harga">40000</h6>
+                            </h6>
+                        </label>
+                        <button class="btn btn-outline-primary" onclick="addCart()">Add to cart</button>
+
+                    </div>
+                </div>
+                <div class="card" id="pop2">
+                    <div class="img2pop">
+                        <img src="design2.jpeg" alt="">
+
+                    </div>
+                    <div class="desk2">
+                        <button class="btn btn-danger" id="cancelpop" onclick="cancelpop2()"></button>
+                        <span id="titlePr2">FIGMA DESIGN LANDING PAGE BY CHANDRA</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quas nihil enim blanditiis
+                            molestias.
+                            Voluptas officia sit porro, suscipit nemo labore inventore harum, eligendi omnis laborum,
+                            modi deserunt pariatur! Similique?</p>
+                        <label id="price" for="">
+                            <h6>Rp<h6 id="harga2">60000</h6>
+                            </h6>
+                        </label>
+                        <button class="btn btn-outline-primary" onclick="addCart2()">Add to cart</button>
+
+                    </div>
+                </div>
+                <div class="card" id="pop3">
+
+                    <div class="img3pop">
+                        <img id="img3pop" src="" alt="">
+
+                    </div>
+                    <div class="desk3">
+                        <button class="btn btn-danger" id="cancelpop" onclick="cancelpop3()"></button>
+                        <span id="titlePr3">FIGMA DESIGN LANDING PAGE BY CHANDRA</span>
+                        <p id="txtDesk3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quas nihil enim blanditiis
+                            molestias.
+                            Voluptas officia sit porro, suscipit nemo labore inventore harum, eligendi omnis laborum,
+                            modi deserunt pariatur! Similique?</p>
+                        <label id="price" for="">
+                            <h6>Rp<h6 id="harga3">60000</h6>
+                            </h6>
+                        </label>
+                        <button class="btn btn-outline-primary" onclick="addCart3()">Add to cart</button>
+
+                    </div>
+
+                </div>
+                <div class="card" id="satu">
+                    <div class="hover">
+                        <button class="btn btn-success" onclick="popup1()">Buy</button>
+                    </div>
+                </div>
+                <div class="card" id="dua">
+                    <div class="hover">
+                        <button class="btn btn-success" onclick="popup2()">Buy</button>
+                    </div>
+                </div>
+                <div class="card" id="tiga">
+                    <div class="hover">
+                        <button class="btn btn-success" onclick="popup3(),isiDesain()">Buy</button>
+                    </div>
+                </div>
+                <div class="card" id="satu"></div>
+                <div class="card" id="satu"></div>
+                <div class="card" id="satu"></div>
+                <div class="card" id="satu"></div>
+                <div class="card" id="satu"></div>
+                <div class="card" id="satu"></div>
+                <div class="card" id="satu"></div>
+                <div class="card" id="satu"></div>
+                <div class="card" id="satu"></div>
+                <div class="card" id="satu"></div>
+                <div class="card" id="satu"></div>
+                <div class="card" id="satu"></div>
+                <div class="card" id="satu"></div>
+            </div>
+
+        </div>
+
+
+</body>
+<script src="apk.js"></script>
+
+</html>
