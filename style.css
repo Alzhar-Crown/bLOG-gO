@@ -978,3 +978,17 @@ a {
         transform: translateY(250px);
     }
 }
+/* about */
+#alzharHov{
+    background-color: transparent;
+    padding-top: 100px;
+    transition: ease-in-out 0.6s;
+}
+#alzharHov:hover{
+    padding-top: 10px;
+}
+#alzharHov h4{
+    font-weight: 400;
+    color: #fff4ee;
+    filter: drop-shadow(4px 9px 2px  #fd8a51);
+}
