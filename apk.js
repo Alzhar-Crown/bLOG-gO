@@ -308,8 +308,10 @@ const history = () => {
     let index = parseInt(localStorage.getItem("index"))
     let storHis = JSON.parse(localStorage.getItem(`Riwayat ${akses[index].id}`))
     if (!storHis) {
-        let bro = [0]
+        let bro = []
+        document.getElementById("historySp").innerHTML += `<br>`
         localStorage.setItem(`Riwayat ${akses[index].id}`, JSON.stringify(bro))
+
     }
     else {
         for (let i = 0; i < storHis.length; i++) {
