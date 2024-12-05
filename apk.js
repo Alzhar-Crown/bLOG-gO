@@ -323,6 +323,7 @@ const history = () => {
     }
 }
 
+
 const innerNom = () => {
     let akses = JSON.parse(localStorage.getItem("acUser"))
     const index = parseInt(localStorage.getItem("index"))
@@ -704,6 +705,14 @@ function isiDesain  () {
     }
     else {
     }
+}
+function Dev  () {
+    let key = document.getElementById("inputKey").value
+    let akses = parseInt(localStorage.getItem("FeeDev"))|| 0
+    if(key == "Developer"){
+     document.getElementById("isiDev").innerHTML= `Rp ${akses}`
+    }
+
 }
 cancelPopd()
 isiDesain()

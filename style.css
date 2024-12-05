@@ -988,7 +988,18 @@ a {
     padding-top: 10px;
 }
 #alzharHov h4{
-    font-weight: 400;
+    font-weight: 500;
     color: #fff4ee;
-    filter: drop-shadow(4px 9px 2px  #fd8a51);
+}
+#suryoHov{
+    background-color: transparent;
+    padding-top: 100px;
+    transition: ease-in-out 0.6s;
+}
+#suryoHov:hover{
+    padding-top: 10px;
+}
+#suryoHov h4{
+    font-weight: 500;
+    color: #fff4ee;
 }
